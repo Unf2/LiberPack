@@ -1,0 +1,212 @@
+html {
+    overflow: hidden;
+}
+
+@media (min-width: 600px) {
+	.container {
+	  width: 80%;
+	}
+  }
+
+body {
+	background-color: #212121;
+}
+
+.logo {
+
+	width: 15%;
+	height: 8%;
+	left: 0;
+	top: 0;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('Mulish-ExtraBold.ttf') format('truetype');
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+	color: #FFFFFF;
+	font-size: 1em;
+	font-family: Mulish;
+}
+
+a {
+	font-family: 'Mulish', sans-serif;
+    color: #006ab5; /* Задает цвет текста ссылки */
+    text-decoration: none; /* Убирает подчеркивание */
+}
+
+a:hover {
+    color: #001ca6; /* Задает цвет текста ссылки при наведении */
+}
+
+.visible {
+	visibility: visible
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+.static {
+	position: static
+}
+
+.fixed {
+	position: fixed
+}
+
+.absolute {
+	position: absolute
+}
+
+.relative {
+	position: relative;
+}
+
+.credits {
+	font-size: 1.3vw;
+	font-family: 'Mulish', sans-serif;
+	color: #FFFFFF;
+	bottom: 0;
+	right: 0;
+}
+
+.gray-square {
+	width: 20%;
+	height: 25%;
+	background-color: #2b2b2b;
+	border-radius: 10%;
+}
+
+.diginity1 {
+	top: 40%;
+	left: 15%;
+}
+.diginity2 {
+	top: 40%;
+	left: 38%;
+}
+.diginity3 {
+	top: 40%;
+	left: 61%;
+}
+
+.diginityicon1 {
+    width: 3vw; /* Уменьшает ширину SVG до 50 пикселей */
+    height: 3vw; /* Уменьшает высоту SVG до 50 пикселей */
+	left: 15.7%;
+	top: 40%;
+}
+
+.diginityicon2 {
+    width: 2.5vw; /* Уменьшает ширину SVG до 50 пикселей */
+    height: 2.5vw; /* Уменьшает высоту SVG до 50 пикселей */
+	left: 38.55%;
+	top: 40.8%;
+}
+
+.diginityicon3 {
+    width: 2.3vw; /* Уменьшает ширину SVG до 50 пикселей */
+    height: 2.3vw; /* Уменьшает высоту SVG до 50 пикселей */
+	left: 61.40%;
+	top: 40%;
+}
+
+.diginitytxt1 {
+	top: 44%;
+	left: 16%;
+	font-size: 90%;
+	color: rgba(139, 139, 139, 0.87);
+}
+
+.diginitytxt2 {
+	top: 44%;
+	left: 39%;
+	font-size: 93%;
+	color: rgba(139, 139, 139, 0.87);
+}
+
+.diginitytxt3 {
+	top: 44%;
+	left: 62%;
+	font-size: 93%;
+	color: rgba(139, 139, 139, 0.87);
+}
+
+.diginitytitle1 {
+	font-size: 1.8rem;
+	top: 17.3vw;
+	left: 19%;
+}
+
+.diginitytitle2 {
+	font-size: 1.8rem;
+	top: 37.3%;
+	left: 41.5%;
+}
+
+.diginitytitle3 {
+	font-size: 1.67rem;
+	top: 37.3%;
+	left: 64%;
+}
+
+.version {
+	width: 2px;
+	height: 2px;
+	bottom: 0;
+	left: 0.5%;
+	color: rgb(56, 56, 56);
+}
+
+.to-editor-button {
+
+	font-family: 'Mulish', sans-serif;
+	font-size: 2.2vw;
+	top: 69.3%;
+	left: 36%;
+	width: 24%;
+	border-radius: 10px;
+	white-space: nowrap;
+	outline: none;
+
+}
+
+.bg-gradient-aq-bl {
+	background: rgb(0,255,221);
+	background: -moz-linear-gradient(153deg, rgba(0,255,221,1) 56%, rgba(0,163,255,1) 100%);
+	background: -webkit-linear-gradient(153deg, rgba(0,255,221,1) 56%, rgba(0,163,255,1) 100%);
+	background: linear-gradient(153deg, rgba(0,255,221,1) 56%, rgba(0,163,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00ffdd",endColorstr="#00a3ff",GradientType=1);
+}
+
+.bg-gradient-aq-bl:hover {
+	background: rgb(65,121,255);
+	background: -moz-linear-gradient(117deg, rgba(65,121,255,1) 51%, rgba(24,0,255,1) 96%);
+	background: -webkit-linear-gradient(117deg, rgba(65,121,255,1) 51%, rgba(24,0,255,1) 96%);
+	background: linear-gradient(117deg, rgba(65,121,255,1) 51%, rgba(24,0,255,1) 96%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4179ff",endColorstr="#1800ff",GradientType=1);
+}
+
+.bg-gradient-aq-bl:active {
+	background: rgb(0,75,255);
+	background: -moz-linear-gradient(117deg, rgba(0,75,255,1) 76%, rgba(0,9,255,1) 96%);
+	background: -webkit-linear-gradient(117deg, rgba(0,75,255,1) 76%, rgba(0,9,255,1) 96%);
+	background: linear-gradient(117deg, rgba(0,75,255,1) 76%, rgba(0,9,255,1) 96%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004bff",endColorstr="#0009ff",GradientType=1);
+
+}
+
+.tagline {
+	font-size: 4.55vw;
+	font-family: 'Mulish', sans-serif;
+	top: 15%;
+	left: 15%;
+}
